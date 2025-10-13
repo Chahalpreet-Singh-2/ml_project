@@ -17,5 +17,3 @@ evaluate performance- python src/evaluate.py
 configs/train_config.yaml — for training hyperparameters and configs/predict_config.yaml — for prediction setup can be edited as per need.
 # Using notebooks
 Notebooks folder can be used for EDA, visulizations and model comparisons.
-# Requirements.txt
-scikit-learn, numpy, pandas, matplotlib, seaborn, pyyaml, joblib
