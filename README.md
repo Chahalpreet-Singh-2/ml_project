@@ -1,5 +1,5 @@
 # ML_project
-GoAuto best selling regions -Team Members: Chahalpreet Singh, Parminder Singh, Rajvir Singh and Arpandeep kaur.
+GoAuto best selling regions -Team Members: Chahalpreet Singh, Parminder Singh, Rajveer Singh and Arpandeep kaur.
 PROJECT TITLE: GoAuto Best selling regions
 Welcome to the repository for our project at Norquest College. This project aims to look for best selling regions where go auto sells more vehicles.
 # The repository contains the following files:
