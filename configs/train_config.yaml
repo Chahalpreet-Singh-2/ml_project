@@ -1,0 +1,34 @@
+train:
+  feature_columns:
+    - FSA_Code
+    - make
+    - price
+    - Region
+    - Most_sold_brand
+    - Average_mileage
+    - Average_price
+    - FSA_Latitude
+    - FSA_Longitude
+    - Region_vehicle_sold
+    - Region_dealerships
+    - Most_sold_month
+
+  categorical_columns:
+    - FSA_Code
+    - make
+    - Region
+    - Most_sold_brand
+
+  algorithm: kprototypes       # or: kmeans (forces numeric-only fallback)
+  n_clusters: 10
+  init: "Huang"
+  random_state: 42
+  scale_numerical: true
+
+  # optional: quick elbow/silhouette sweep for guidance
+  evaluation:
+    elbow_k_range: [2, 15]
+    silhouette_k_range: [2, 15]
+
+  save_model: true
+  model_path: models/kprototypes_model.joblib
