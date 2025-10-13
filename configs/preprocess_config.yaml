@@ -1,0 +1,34 @@
+drop_columns:
+  - dealer_email
+  - dealer_phone
+  - has_leather
+  - has_navigation
+
+date_columns:
+  listing_first_date: "%Y-%m-%d"   # parser hint (optional)
+
+derived_dates:
+  listing_dropoff_date:
+    base: listing_first_date
+    add_days_from: days_on_market
+
+price_zero_strategy: median_nonzero  # or: null_then_median
+
+mode_impute_columns:
+  - series
+  - exterior_color
+  - exterior_color_category
+  - interior_color
+  - interior_color_category
+
+wheelbase_zero_to_null: true
+wheelbase_impute: median
+
+iqr_trim_columns:
+  - price
+  - mileage
+  - days_on_market
+
+save:
+  as_parquet: true
+  as_csv: true
