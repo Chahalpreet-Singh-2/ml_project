@@ -1,0 +1,8 @@
+.dvc/cache/
+.dvc/tmp/
+.venv/
+__pycache__/
+*.pyc
+mlruns/
+data/raw/
+data/processed/
