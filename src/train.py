@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
-from utils.helpers import get_project_root, load_config, get_logger
-from utils.model_utils import KProtoWrapper
+from src.utils.helpers import get_project_root, load_config, get_logger
+from src.utils.models_utils import KProtoWrapper
 
 log = get_logger()
 

@@ -1,8 +1,8 @@
 # Requirements.txt
-scikit-learn,
-numpy,
-pandas,
-matplotlib, 
-seaborn, 
-pyyaml, 
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+pyyaml
 joblib

@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
-from utils.helpers import get_project_root, load_config, get_logger
-from utils.data_utils import DataLoader, Cleaner
-from utils.feature_utils import FeatureEngineer
+from src.utils.helpers import get_project_root, load_config, get_logger
+from src.utils.data_utils import DataLoader, Cleaner
+from src.utils.feature_utils import FeatureEngineer
 
 log = get_logger()
 

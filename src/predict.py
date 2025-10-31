@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-from utils.helpers import get_project_root
-from utils.model_utils import KProtoWrapper
+from src.utils.helpers import get_project_root
+from src.utils.models_utils import KProtoWrapper
 
 class ModelPredictor:
     def __init__(self, model_path: str):
