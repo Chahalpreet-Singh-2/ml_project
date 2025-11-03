@@ -1,0 +1,6 @@
+[core]
+    autostage = true
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://github.com/Chahalpreet-Singh-2/ml_project.git
