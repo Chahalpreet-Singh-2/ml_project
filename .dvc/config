@@ -1,6 +1,11 @@
 [core]
     autostage = true
-    remote = origin
+    remote = gdrive
 ['remote "origin"']
     url = s3://dvc
     endpointurl = https://github.com/Chahalpreet-Singh-2/ml_project.git
+['remote "localstore"']
+    url = /workspaces/ml_project/dvcstore
+['remote "gdrive"']
+    url = gdrive://1uO_aUs8YXqB7aTF3qHoTDUZxzOay2mwi
+    gdrive_user_credentials_file = tmp/gdrive-user-creds.json
