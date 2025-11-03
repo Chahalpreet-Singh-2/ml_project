@@ -6,3 +6,5 @@ matplotlib
 seaborn
 pyyaml
 joblib
+dvc[gdrive,s3]==3.63.0
+dagshub==0.6.3
